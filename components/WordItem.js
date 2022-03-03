@@ -8,7 +8,7 @@ const WordItem = ({ children }) => {
     <div style={{ cursor: "pointer" }}>
       <Card.Grid
         style={{
-          width: "20%",
+          width: "100%",
           textAlign: "center",
           backgroundColor: color,
         }}

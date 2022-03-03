@@ -14,7 +14,7 @@ const HomePage = ({ words }) => {
       </Header>
       <Content style={{ height: "90vh" }}>
         <Row>
-          <Col span={12} offset={6}>
+          <Col span={20} offset={2}>
             <Words words={words} />
           </Col>
         </Row>
