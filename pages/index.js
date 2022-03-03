@@ -12,7 +12,7 @@ const HomePage = ({ words }) => {
       <Header style={{ height: "10vh", display: "flex", alignItems: "center" }}>
         <h1 style={{ color: "white" }}>Flashcards App</h1>
       </Header>
-      <Content style={{ height: "90vh" }}>
+      <Content>
         <Row>
           <Col span={20} offset={2}>
             <Words words={words} />
